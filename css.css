@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Centered Text Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="centered-text">
+    <p>Welcome to my website!</p>
+  </div>
+</body>
+</html>
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* light gray background */
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
